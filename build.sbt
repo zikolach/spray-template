@@ -1,3 +1,5 @@
+import AssemblyKeys._
+
 organization  := "com.example"
 
 version       := "0.1"
@@ -20,3 +22,5 @@ libraryDependencies ++= Seq(
 )
 
 seq(Revolver.settings: _*)
+
+assemblySettings
