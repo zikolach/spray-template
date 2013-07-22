@@ -4,6 +4,8 @@ organization  := "com.example"
 
 version       := "0.1"
 
+name          := "RPI-Spray-can"
+
 scalaVersion  := "2.10.2"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
