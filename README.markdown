@@ -1,4 +1,15 @@
-## _spray_ Template Project
+## _spray_ Template Project (modified for the RPI)
+
+This version of the spray-template project is modified to run smoothly on the
+Raspberry Pi.
+
+The essential modifications are the sizing of the akka dispatcher thread-pool
+(see application.conf) and the use of the sbt assembly plugin (see build.sbt)
+to make it easy to package the spray-app outside of the RPI.
+
+Instuctions to run it on the RPI:
+From within sbt just type `assembly` to package the app. The packaged jar file
+can than be transferred to the RPI.
 
 This projects provides a starting point for your own _spray-routing_ endeavors.
 There are four branches, providing templates for _spray-routing_ on

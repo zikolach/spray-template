@@ -4,7 +4,7 @@ organization  := "com.example"
 
 version       := "0.1"
 
-name          := "RPI-Spray-can"
+name          := "spray-can-rpi"
 
 scalaVersion  := "2.10.2"
 
