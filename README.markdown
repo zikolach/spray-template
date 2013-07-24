@@ -11,6 +11,10 @@ Instuctions to run it on the RPI:
 From within sbt just type `assembly` to package the app. The packaged jar file
 can than be transferred to the RPI.
 
+Detailed information about the modifications and the use of spray.io and
+spray-can on the RPI can be found on the spray blog:
+<http://spray.io/blog/2013-07-23-spray-on-the-raspberry-pi/>
+
 This projects provides a starting point for your own _spray-routing_ endeavors.
 There are four branches, providing templates for _spray-routing_ on
 
