@@ -6,7 +6,7 @@ version       := "0.1"
 
 name          := "spray-can-rpi"
 
-scalaVersion  := "2.10.2"
+scalaVersion  := "2.10.3"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
@@ -15,12 +15,12 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "io.spray"            %   "spray-can"     % "1.2-M8",
-  "io.spray"            %   "spray-routing" % "1.2-M8",
-  "io.spray"            %   "spray-testkit" % "1.2-M8" % "test",
-  "com.typesafe.akka"   %%  "akka-actor"    % "2.2.0-RC1",
-  "com.typesafe.akka"   %%  "akka-testkit"  % "2.2.0-RC1" % "test",
-  "org.specs2"          %%  "specs2"        % "1.14" % "test"
+  "io.spray"            %   "spray-can"     % "1.2.0",
+  "io.spray"            %   "spray-routing" % "1.2.0",
+  "io.spray"            %   "spray-testkit" % "1.2.0" % "test",
+  "com.typesafe.akka"   %%  "akka-actor"    % "2.2.3",
+  "com.typesafe.akka"   %%  "akka-testkit"  % "2.2.3" % "test",
+  "io.spray"            %   "spray-testkit" % "1.2.0" % "test"
 )
 
 seq(Revolver.settings: _*)
